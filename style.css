@@ -1,0 +1,167 @@
+html {
+    font-size: 10px;
+    font-family: 'Goto', sans-serif;
+    background-color: azure;
+}
+
+/* The side navigation menu */
+
+#navbar {
+    background-color: rgb(205, 231, 231);
+    font-size: 2.5rem;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#navbar li {
+    color: #303033;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #303033;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#navbar-header {
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1 {
+    background-color:  rgb(205, 231, 231);
+    padding: 20px;
+    font-size: 4rem;
+    margin-left: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+#main-doc {
+    font-size: 2rem;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(205, 231, 231);
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 0 20px 0;
+}
+
+article {
+    margin-left: 50px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: normal;
+    position: relative;
+    line-height: 1.5;
+    background-color:white;
+    padding:25px;
+    margin-right: 50px;
+    border-radius: 25px;
+  }
+
+  @media (max-width: 800px) {
+    #navbar {
+        font-size: 1.6rem;
+        position: fixed;
+        min-width: 120px;
+        width: 150px;
+    }
+    
+    #navbar a {
+        display: block;
+        padding: 10px 5px;
+        color: #303033;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #navbar-header {
+        font-size: 1.8rem;
+    }
+    
+    h1 {
+        padding: 0px;
+        font-size: 3rem;
+        margin-left: 150px;
+    }
+    
+    h2 {
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+    
+    h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    #main-doc {
+        font-size: 1.6rem;
+        margin-left: 150px;
+        padding: 0px;
+    }
+    
+    header {
+        font-size: 2.6rem;
+        padding: 10px 0 10px 0;
+    }
+    
+    article {
+        margin-left: 20px;
+    }
+    
+    code {
+        line-height: 1.2;
+        padding:15px;
+        margin-right: 20px;
+        border-radius: 25px;
+    }
+    
+  }
+
